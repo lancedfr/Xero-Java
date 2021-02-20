@@ -1,3 +1,6 @@
+# feature/java-time branch
+This is functionally the same as master branch of XeroAPI/Xero-Java repo. However, this branch replaces org.threeten.bp time for java.time. Additionally, support JDK 1.8 instead of JDK 1.7
+
 # Xero-Java OAuth 2.0
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.xeroapi/xero-java.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.github.xeroapi%22%20AND%20a:%22xero-java%22)
