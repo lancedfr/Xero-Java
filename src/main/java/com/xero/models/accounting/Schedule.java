@@ -18,9 +18,9 @@ import com.xero.api.StringUtil;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 import java.util.Objects;
-import org.threeten.bp.Instant;
-import org.threeten.bp.LocalDate;
-import org.threeten.bp.ZoneId;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
 
 /** Schedule */
 public class Schedule {

@@ -16,7 +16,7 @@ import com.xero.api.StringUtil;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.util.Objects;
-import org.threeten.bp.LocalDate;
+import java.time.LocalDate;
 
 /** the lines details for a statement */
 @ApiModel(description = "the lines details for a statement")

@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.Objects;
 import java.util.UUID;
-import org.threeten.bp.OffsetDateTime;
+import java.time.OffsetDateTime;
 
 /** TaxDeclaration */
 public class TaxDeclaration {
