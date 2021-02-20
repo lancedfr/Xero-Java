@@ -17,7 +17,7 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 import java.util.Objects;
 import java.util.UUID;
-import org.threeten.bp.OffsetDateTime;
+import java.time.OffsetDateTime;
 
 /** PayslipSummary */
 public class PayslipSummary {

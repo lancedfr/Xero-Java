@@ -16,7 +16,7 @@ import com.xero.api.StringUtil;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 import java.util.Objects;
-import org.threeten.bp.OffsetDateTime;
+import java.time.OffsetDateTime;
 
 /** HistoryRecord */
 public class HistoryRecord {

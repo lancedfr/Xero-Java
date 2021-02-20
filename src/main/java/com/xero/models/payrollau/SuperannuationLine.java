@@ -17,9 +17,9 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 import java.util.Objects;
 import java.util.UUID;
-import org.threeten.bp.Instant;
-import org.threeten.bp.LocalDate;
-import org.threeten.bp.ZoneId;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.ZoneId;
 
 /** SuperannuationLine */
 public class SuperannuationLine {

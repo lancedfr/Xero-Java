@@ -16,7 +16,7 @@ import com.xero.api.StringUtil;
 import io.swagger.annotations.ApiModelProperty;
 import java.util.Objects;
 import java.util.UUID;
-import org.threeten.bp.LocalDate;
+import java.time.LocalDate;
 
 /** Asset */
 public class Asset {

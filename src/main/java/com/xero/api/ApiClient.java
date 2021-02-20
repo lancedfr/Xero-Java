@@ -1,12 +1,11 @@
 package com.xero.api;
 
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.xero.api.client.*;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.datatype.threetenbp.ThreeTenModule;
-import org.threeten.bp.*;
 import com.google.api.client.googleapis.util.Utils;
 import com.google.api.client.http.AbstractHttpContent;
 import com.google.api.client.http.HttpRequestFactory;
@@ -37,8 +36,7 @@ public class ApiClient {
             .setSerializationInclusion(Include.NON_EMPTY);
         objectMapper.configure(DeserializationFeature.READ_UNKNOWN_ENUM_VALUES_AS_NULL, true);
         
-        ThreeTenModule module = new ThreeTenModule();
-        objectMapper.registerModule(module);
+        objectMapper.registerModule(new JavaTimeModule());
         return objectMapper;
     }
 

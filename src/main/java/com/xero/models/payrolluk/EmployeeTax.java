@@ -15,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.xero.api.StringUtil;
 import io.swagger.annotations.ApiModelProperty;
 import java.util.Objects;
-import org.threeten.bp.LocalDate;
+import java.time.LocalDate;
 
 /** EmployeeTax */
 public class EmployeeTax {
